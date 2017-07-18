@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Simple script to create a json file of all user accounts on the Docker UCP and then perform a bulk delete operation using the account information from the users.json file.
+# This script works on UCP 2.2.0 and above. The PATCH API method was not availbe prior to UCP 2.2.0.
+#
 # Created by Richard Kiles
 
 # Set UCP FQDN and login credentials
